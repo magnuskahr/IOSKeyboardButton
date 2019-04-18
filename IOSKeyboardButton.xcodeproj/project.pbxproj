@@ -12,6 +12,7 @@
 		4C5BB9CD226874D90024BF65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5BB9CB226874D90024BF65 /* Main.storyboard */; };
 		4C5BB9CF226874DB0024BF65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5BB9CE226874DB0024BF65 /* Assets.xcassets */; };
 		4C5BB9D2226874DB0024BF65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5BB9D0226874DB0024BF65 /* LaunchScreen.storyboard */; };
+		4C5BB9DA226874ED0024BF65 /* KeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5BB9D9226874ED0024BF65 /* KeyboardButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4C5BB9CE226874DB0024BF65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C5BB9D1226874DB0024BF65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C5BB9D3226874DB0024BF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5BB9D9226874ED0024BF65 /* KeyboardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				4C5BB9C7226874D90024BF65 /* AppDelegate.swift */,
 				4C5BB9C9226874D90024BF65 /* ViewController.swift */,
+				4C5BB9D9226874ED0024BF65 /* KeyboardButton.swift */,
 				4C5BB9CB226874D90024BF65 /* Main.storyboard */,
 				4C5BB9CE226874DB0024BF65 /* Assets.xcassets */,
 				4C5BB9D0226874DB0024BF65 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C5BB9DA226874ED0024BF65 /* KeyboardButton.swift in Sources */,
 				4C5BB9CA226874D90024BF65 /* ViewController.swift in Sources */,
 				4C5BB9C8226874D90024BF65 /* AppDelegate.swift in Sources */,
 			);
@@ -283,13 +287,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 29RJCX35A7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = IOSKeyboardButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.magnuskahr.IOSKeyboardButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,13 +304,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 29RJCX35A7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = IOSKeyboardButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.magnuskahr.IOSKeyboardButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
